@@ -12,7 +12,7 @@ public class DataLaptop {
         public String OperatingSystem;
         public String OperatingSystemVersion;
         public String Weight;
-        public String Price;
+        public Double Price;
 
         //menampilkan informasi tertentu yang ingin ditampilkan
         public void print(){
