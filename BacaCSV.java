@@ -32,7 +32,7 @@ public class BacaCSV {
                 dataLaptop.OperatingSystem = file[9];
                 dataLaptop.OperatingSystemVersion = file[10];
                 dataLaptop.Weight = file[11];
-                dataLaptop.Price = file[12];
+                dataLaptop.Price = Double.parseDouble(file[12]);
 
 
                 ListLaptop [idx] = dataLaptop;
